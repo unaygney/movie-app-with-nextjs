@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-container {
+    display: grid;
+    grid-template-columns: 1fr min(1440px, 94%) 1fr;
+    grid-template-rows: 96px auto 72px;
+}
+
+.custom-container > * {
+  grid-column: 2;
+}
+
+.custom-container > .fluid {
+  grid-column: 1 / -1;
+}
