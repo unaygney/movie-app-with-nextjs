@@ -20,5 +20,4 @@ function Categories({ categories }) {
   );
 }
 
-export { CategoriesLoading } from "./loading";
 export { Categories };
